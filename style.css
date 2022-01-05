@@ -1,0 +1,36 @@
+button {
+    background: gold;
+    padding: 1em 1em;
+    border: black 2px solid;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    font-family: sans-serif;
+}
+
+.background {
+    background-color: black;
+    background-image: url(birthday.jpg);
+    background-size: 105vw;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    position: relative;
+    opacity: 0;
+}
+
+div {
+    display: none;
+    text-shadow: 0 0 10px #FF0;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    right: 0;
+    mix-blend-mode: screen;
+    width: 100%;
+    min-height: 100vh;
+}
